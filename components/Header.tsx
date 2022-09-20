@@ -12,7 +12,7 @@ export const Header = () => {
         />
       </div>
       <div className="z-10 bg-black fixed top-12 sm:top-0 px-4 py-w border-2 border-solid border-white flex flex-row w-fit space-x-4">
-        <Link
+        {/* <Link
           href="/"
         >
           <a className="hover:text-[#f53bc3]">
@@ -39,7 +39,21 @@ export const Header = () => {
           <a className="hover:text-[#f53bc3]">
             PROTOCOL
           </a>
+        </Link> */}
+        <Link
+          href="/factory"
+        >
+          <a className="hover:text-[#f53bc3]">
+            FACTORY
+          </a>
         </Link>
+        <Link
+          href="/validation"
+        >
+          <a className="hover:text-[#f53bc3]">
+            VALIDATION
+          </a>
+        </Link>    
       </div>
     </div>
   )
