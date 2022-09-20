@@ -4,7 +4,7 @@ import { Header } from '../components/Header'
 import { useValidation } from "../hooks/validation/useValidation"
 import { useAuth } from "../hooks/useAuth"
 
-const factoryAddress = "0x6343A758F34E097a3122e0B9eCDe480BAe2E5C4B"
+const factoryAddress = "0x6343A758F34E097a3122e0B9eCDe480BAe2E5C4B" // https://goerli.etherscan.io/address/0x6343a758f34e097a3122e0b9ecde480bae2e5c4b#code
 const curationPassAddress = "0xc3ed34368d7d8570c6fdd4b7f65dbcbf26f813ce"
 const curationManagerAddress = ""
 

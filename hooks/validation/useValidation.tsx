@@ -27,7 +27,7 @@ import { BigNumber } from 'ethers';
         ? true
         : false
       ) : (
-        0
+        false
       )
 
     console.log("data", data)
