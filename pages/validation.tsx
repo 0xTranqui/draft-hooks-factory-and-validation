@@ -1,8 +1,8 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import { Header } from '../components/Header'
-import { useValidation } from "../hooks/validation/useValidation.tsx"
-import { useAuth } from "../hooks/useAuth.tsx"
+import { useValidation } from "../hooks/validation/useValidation"
+import { useAuth } from "../hooks/useAuth"
 
 const factoryAddress = "0x6343A758F34E097a3122e0B9eCDe480BAe2E5C4B"
 const curationPassAddress = "0xc3ed34368d7d8570c6fdd4b7f65dbcbf26f813ce"

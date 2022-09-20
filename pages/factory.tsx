@@ -1,8 +1,8 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import { Header } from '../components/Header'
-import { useFactory } from "../hooks/factory/useFactory.tsx"
-import { useAuth } from "../hooks/useAuth.tsx"
+import { useFactory } from "../hooks/factory/useFactory"
+import { useAuth } from "../hooks/useAuth"
 import { useState, useEffect } from "react"
 import { useContractWrite } from 'wagmi'
 
@@ -16,7 +16,7 @@ const Factory: NextPage = () => {
     curationTitle: "All at once",
     curationPassAddress: curationPassAddress,
     curationLimit: "0",
-    curationBool: false
+    curationBool: "false"
   })  
 
   const { address, ensName } = useAuth()

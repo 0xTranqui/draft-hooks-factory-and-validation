@@ -1,5 +1,4 @@
 import { useContractRead, erc721ABI } from 'wagmi'
-import * as abi from "../../contracts/factory/abi/betaCurator.json"
 import { BigNumber } from 'ethers';
   
   export function useValidation(
